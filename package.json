@@ -1,5 +1,5 @@
 {
-  "name": "cpnt262-a1-Simple-Express-Website",
+  "name": "cpnt262-a1-simple-express-website",
   "version": "1.0.0",
   "engines": {
     "node": "^12.16.1"
@@ -22,6 +22,8 @@
   "homepage": "https://github.com/atran0802/cpnt262-a1-Simple-Express-Website#readme",
   "dependencies": {
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {}
 }
