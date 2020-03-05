@@ -9,7 +9,7 @@
   font-family: 'Open Sans', sans-serif;
   }
 
-nav {
+#nav-bar {
   position: fixed;
   top: 0;
   width: 100vw;
@@ -19,12 +19,16 @@ nav {
   background-image: linear-gradient(#0055E8,#003187);
   }
 
-a {
+#nav-bar a {
   text-decoration: none;  
   }
 
-a:hover {
-  color: #002463;
+#nav-bar a:hover {
+  color: #4084F9;
+  }
+
+.active {
+  background-color: #479BC1;
   }
 
 a:visited {
