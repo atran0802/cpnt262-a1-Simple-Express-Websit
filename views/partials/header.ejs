@@ -1,10 +1,10 @@
 <header>  
-  <nav>
+  <nav id="nav-bar">
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/services">Services</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li <% if (title === "Home Page") { %>class="active"<% } %> ><a href="/">Home</a></li>
+      <li <% if (title === "About") { %>class="active"<% } %> ><a href="/about">About</a></li>
+      <li <% if (title === "Services") { %>class="active"<% } %> ><a href="/services">Services</a></li>
+      <li <% if (title === "Contact") { %>class="active"<% } %> ><a href="/contact">Contact</a></li>
     </ul>
   </nav>
 </header>  
