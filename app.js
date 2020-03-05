@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const pageInfo = require('./pageInfo');
 const ejs = require('ejs');
+const moment = require('moment');
 
 /* Runs express */
 const app = express();
