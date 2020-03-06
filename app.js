@@ -2,10 +2,16 @@ const path = require('path');
 const express = require('express');
 const pageInfo = require('./pageInfo');
 const ejs = require('ejs');
-const moment = require('moment');
 
 /* Runs express */
 const app = express();
+
+/* Runs moments module for footer */
+const moment = require('moment');
+const year = "YYYY";
+
+app.locals.moment = require("moment");
+app.locals.year = year;
 
 /* Runs ejs */
 app.set('view engine', 'ejs');
